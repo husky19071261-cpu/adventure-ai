@@ -1,0 +1,3 @@
+note-seq
+pretty_midi
+numpy
