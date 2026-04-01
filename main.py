@@ -116,7 +116,8 @@ def generate_sequence(length=120):
         hat.is_drum = True
 
         # Move melody
-        current_pitch = next_note(current_pitch)
+        if random.random() < 0.7:
+    current_pitch = next_note(current_pitch)
 
         # Change chord every few steps
         if i % 8 == 0:
